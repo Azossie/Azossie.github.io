@@ -1,0 +1,357 @@
+body {
+  background-color: #a2b9bc;
+}
+
+#main-container {
+  margin-left: 150px;
+  margin-right: 150px;
+  position: relative;
+  left: 0;
+  background-color: #FFFAFA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #333333;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding-bottom: 200px;
+}
+
+.sprachen {
+  width: auto;
+  margin-left: 150px;
+}
+
+.sprachen span {
+  width: 30px;
+  text-align: center;
+}
+
+.sprachen:hover span {
+  color: #b33c00;
+}
+
+.active-sprache {
+  color: #b33c00;
+}
+
+.logo {
+  width: 50px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.navbar-menu {
+  margin-left: 150px;
+  margin-right: 120px;
+}
+
+.navbar {
+  margin-bottom: 70px;
+}
+
+.nav-item {
+  margin-right: 25px;
+  background-color: #79a3d2;
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  background-color: #2d5986;
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.nav-item:hover .nav-link {
+  color: #f2f2f2 !important;
+}
+
+.active-nav-item {
+  background-color: #2d5986;
+}
+
+.active-nav-item a {
+  color: #f2f2f2 !important;
+}
+
+.dropdown-menu {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  display: block;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: ease-out 0.7s;
+  transition: ease-out 0.7s;
+  color: #333333 !important;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #333333 !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #f2f2f2 !important;
+  background-color: #2d5986;
+}
+
+.dropdown:hover .dropdown-menu {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.sepator-linie {
+  height: 100px;
+}
+
+.aktuelles {
+  border: 2px solid black;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.letzteVeranstaltungen .carousel-inner {
+  width: 75% !important;
+}
+
+.send-message-help {
+  text-decoration: none;
+  position: fixed;
+  top: 250px;
+  right: 30px;
+  width: 160px;
+  height: 130px;
+  border: 1px solid #009933;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  /*background-color: #ffffff;*/
+  background-color: #ffffff;
+  /*#e6e6e6 #eee6ff;*/
+  color: #333333;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 17px;
+}
+
+.send-message-help:hover {
+  color: #2d5986;
+  text-decoration: none;
+}
+
+.philosophie-beschreibung {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #a2b9bc;
+  /*#eee6ff;*/
+  border: 1px solid #2d5986;
+  /*#ff9933;*/
+  border-radius: 5px;
+}
+
+.separator {
+  border: 1px solid black;
+  margin-top: 50px;
+}
+
+#contact-formular {
+  margin-top: 50px;
+  margin-bottom: 58px;
+  padding: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px solid #009933;
+}
+
+.name-email, .message {
+  margin-top: 20px;
+}
+
+.send-message-div {
+  margin-left: 780px;
+  margin-top: 20px;
+  /*background-color: #009933;
+  color: black;*/
+}
+
+.send-message-btn {
+  border: 1px solid #009933;
+  color: #333333;
+  font-weight: bold;
+  float: right;
+}
+
+.send-message-btn:hover {
+  color: #ffffff;
+  background-color: #009933;
+}
+
+/*footer*/
+.footer {
+  /*margin-left: 20px;
+    margin-right: 20px;*/
+  margin-top: 50px;
+  color: white;
+  background-color: #595959;
+}
+
+.footer-navbar {
+  /*border-top: 2px solid #cccccc;*/
+  font-size: 15px;
+  padding-top: 15px;
+  width: 110%;
+  height: 100%;
+  /*background-color: #a38068;*/
+  /*#eee6ff;*/
+}
+
+.association-name {
+  /*    border: 1px solid black;*/
+  font-size: 16px;
+  color: white;
+  padding-left: 70px;
+}
+
+.copyright-sign {
+  font-size: 12px;
+}
+
+.footer-navbar-navband {
+  /* border: 1px solid black;*/
+  color: #336699;
+}
+
+.footer-navbar-listing {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-navbar-item {
+  margin: 0px 15px 0px 15px;
+}
+
+.footer-nav-link {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-nav-link:hover {
+  color: #ff9933;
+  text-decoration: none;
+}
+
+/*footer end*/
+/*aktuelles*/
+.aktivitaeten-liste-titel {
+  position: fixed;
+  top: 220px;
+  left: -3px;
+  width: 180px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  /*border: 1px solid black;*/
+}
+
+.aktivitaeten-box {
+  border: 1px solid black;
+  text-decoration: none;
+  position: fixed;
+  top: 250px;
+  left: -3px;
+  width: 220px;
+  height: auto;
+  padding: 1px 10px 0px 10px;
+  border: 1px solid #009933;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ffffff;
+  /*#e6e6e6 #eee6ff;*/
+  color: #333333;
+  font-weight: bold;
+}
+
+.aktivitaet-separator {
+  border-bottom: 1px solid #009933;
+  width: 150%;
+}
+
+.aktivitaeten-liste {
+  list-style-type: none;
+  height: 151px;
+  padding-left: 0;
+  /*border: 1px solid black;*/
+}
+
+.aktivitaet-item {
+  /*border: 1px solid black;*/
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 103%;
+  height: auto;
+  font-size: 14px;
+}
+
+.aktivitaet-link {
+  text-decoration: none;
+}
+
+.aktivitaet-item:hover {
+  color: #ffffff;
+  background-color: #009933;
+}
+
+.aktivitaet-item:hover .aktivitaet-link {
+  text-decoration: none;
+}
+
+.aktivitaet-item:hover > .aktivitaet-link {
+  color: #ffffff;
+}
+
+.aktivitaet-link {
+  color: #336699;
+  text-decoration: none;
+}
+
+.aktivitaeten-im-jahr {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aktivitaeten-im-jahr > h4 {
+  margin-bottom: 50px;
+}
+
+.aktivitaeten-im-jahr > h4, p {
+  text-align: center;
+}
+
+.aktivitaeten-im-jahr > p {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+/*aktuelles end*/
+/*# sourceMappingURL=style.css.map */
